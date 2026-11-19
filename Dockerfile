@@ -12,7 +12,7 @@ ARG BUILD_COMMIT=unknown
 COPY scripts/build-info.mjs ./scripts/build-info.mjs
 RUN node scripts/build-info.mjs "$BUILD_COMMIT" /app/build-info.json
 
-FROM node:24-alpine@sha256:44fce696f38ba8c987c4db89954051000bbd05ffd8d8659ba15ed4a8602e937f AS runtime
+FROM node:24-alpine@sha256:116b800c3754b440ee0aa3ed2f20f5bf3d99a554bfd9adeea09ea8017f6e85f5 AS runtime
 ARG BUILD_COMMIT=unknown
 ARG BUILD_VERSION=unknown
 LABEL org.opencontainers.image.title="gitea-chatgpt-plugin" \
