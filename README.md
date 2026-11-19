@@ -11,7 +11,7 @@ Open-Source-MCP-Server und portables Plugin zur Verwaltung eigener Gitea-Instanz
 Voraussetzungen: Node.js 24 LTS, pnpm 11.25.0, Git und für Containerbetrieb Docker Compose. Eigener HTTPS-Endpunkt und OAuth/OIDC-Anbieter sind erforderlich. Es wird kein laufender Dienst mitgeliefert.
 
 ```bash
-git clone https://github.com/Tracht-Digital-Solutions/gitea-chatgpt-plugin.git
+git clone https://github.com/Tracht-Digital-Labs/gitea-chatgpt-plugin.git
 cd gitea-chatgpt-plugin
 node scripts/install.mjs --init
 # .env im Editor mit eigenen Gitea-/MCP-/OAuth-Einstellungen ausfüllen

@@ -15,7 +15,7 @@ Der MCP-Dienst läuft auf deinem Rechner oder Server. ChatGPT benötigt eine err
 ## 2. Projekt und Beispielkonfiguration
 
 ```bash
-git clone https://github.com/Tracht-Digital-Solutions/gitea-chatgpt-plugin.git
+git clone https://github.com/Tracht-Digital-Labs/gitea-chatgpt-plugin.git
 cd gitea-chatgpt-plugin
 corepack enable
 corepack prepare pnpm@11.25.0 --activate
