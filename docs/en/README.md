@@ -9,7 +9,7 @@ Self-hosted TypeScript MCP server and portable plugin with 160 tools for Gitea r
 Install Node.js 24 LTS, pnpm 11.25.0, Git and Docker Compose, and prepare your own HTTPS/OAuth service.
 
 ```bash
-git clone https://github.com/Tracht-Digital-Solutions/gitea-chatgpt-plugin.git
+git clone https://github.com/Tracht-Digital-Labs/gitea-chatgpt-plugin.git
 cd gitea-chatgpt-plugin
 node scripts/install.mjs --init
 # Edit .env with your actual Gitea/MCP/OAuth settings

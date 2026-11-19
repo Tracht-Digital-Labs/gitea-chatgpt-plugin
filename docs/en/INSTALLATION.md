@@ -11,7 +11,7 @@ Install Node.js 24 LTS, pnpm 11.25.0, Git and Docker Engine with Docker Compose 
 ## 2. Create your configuration
 
 ```bash
-git clone https://github.com/Tracht-Digital-Solutions/gitea-chatgpt-plugin.git
+git clone https://github.com/Tracht-Digital-Labs/gitea-chatgpt-plugin.git
 cd gitea-chatgpt-plugin
 corepack enable
 corepack prepare pnpm@11.25.0 --activate

@@ -16,7 +16,7 @@ FROM node:24-alpine@sha256:44fce696f38ba8c987c4db89954051000bbd05ffd8d8659ba15ed
 ARG BUILD_COMMIT=unknown
 ARG BUILD_VERSION=unknown
 LABEL org.opencontainers.image.title="gitea-chatgpt-plugin" \
-      org.opencontainers.image.source="https://github.com/Tracht-Digital-Solutions/gitea-chatgpt-plugin" \
+      org.opencontainers.image.source="https://github.com/Tracht-Digital-Labs/gitea-chatgpt-plugin" \
       org.opencontainers.image.revision="$BUILD_COMMIT" \
       org.opencontainers.image.version="$BUILD_VERSION"
 ENV NODE_ENV=production
