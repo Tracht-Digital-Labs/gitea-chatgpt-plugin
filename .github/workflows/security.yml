@@ -42,11 +42,11 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: github/codeql-action/init@f051dc808ef3645eb0d08647ec751634ec2304ac # v4
+      - uses: github/codeql-action/init@e9c4b4b153701845b921f167180044d14fe89b94 # v4
         with:
           languages: javascript-typescript
           queries: security-extended
-      - uses: github/codeql-action/analyze@f051dc808ef3645eb0d08647ec751634ec2304ac # v4
+      - uses: github/codeql-action/analyze@e9c4b4b153701845b921f167180044d14fe89b94 # v4
         with:
           wait-for-processing: true
       - name: Reject open high or critical code scanning alerts for this ref
